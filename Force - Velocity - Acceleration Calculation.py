@@ -8,13 +8,13 @@ Created on Thu Jan 27 00:58:55 2022
 
    
 def formul():
-    disp = int(input("Write the Displacement: "))
+    x = int(input("Write the Displacement: "))
     t = int(input("Write the Time: "))
     m = int(input("Write the Mass: "))
-    spd = disp / t
-    a = spd / t
+    v = x / t
+    a = v / t
     F = m*a
-    print("Speed: ", spd)
+    print("Speed: ", v)
     print("Acceleration: ", a)
     print("Force: ", F)
     
